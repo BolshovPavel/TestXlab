@@ -1,0 +1,7 @@
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\obj\Debug\TestProgram.csproj.AssemblyReference.cache
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\obj\Debug\TestProgram.csproj.CoreCompileInputs.cache
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\bin\Debug\TestProgram.exe.config
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\bin\Debug\TestProgram.exe
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\bin\Debug\TestProgram.pdb
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\obj\Debug\TestProgram.exe
+D:\Unity projects\My project\Xlab_test\TestUnit2\TestProgram\obj\Debug\TestProgram.pdb

@@ -7,30 +7,25 @@ using System.Threading.Tasks;
 namespace TestProgram
 {
     internal class Program
-
-        static void Main (string[] args)
     {
-        int a = 3;
-        int b;
-        b = 4;
+        class House
+        {
+            public string street;
+            public float number;
 
-        byte b;
-        sbyte sb;
-        short s;
-        ushort us;
-        int i;
-        uint ui;
-        long l;
-        ulong ul;
+            public void Print()
+            {
+                Console.WriteLine($"{street}, {number}");
+            }
+        }
+        static void Main(string[] args)
+        { 
 
-        float f = 6.2f;
-        double d = 5.7;
+            House tower = new House();
+            tower.street = "Ладно, оставим это пасхалкой если кто-то и будет читать";
+            tower.number = 1125333f;
 
-        char c = '5';
-
-        string str = "hello there";
-
-        bool bl;
+            tower.Print();
+        }
     }
-    
 }
