@@ -8,24 +8,36 @@ namespace TestProgram
 {
     internal class Program
     {
-        class House
-        {
-            public string street;
-            public float number;
-
-            public void Print()
-            {
-                Console.WriteLine($"{street}, {number}");
-            }
-        }
         static void Main(string[] args)
-        { 
+        {
+            short s = 0;
+            int i = 0;
+            long l = 0;
+            float f = 0;
+            double d = 0;
+            object o = d;
+            double d2 = (double)o;
 
-            House tower = new House();
-            tower.street = "Ладно, оставим это пасхалкой если кто-то и будет читать";
-            tower.number = 1125333f;
+            i = (int)l; l = i;
+            ushort a = 15050;
+            byte b = (byte)a;
 
-            tower.Print();
+            TestFunc(ref i);
+
+            var c = 0f;
+            if (o != null) ;
+            {
+                int i2 = Convert.ToInt32(o);
+            }
+            int[] array = new int[10000];
+
+            List<int> list = new List<int>(80);
+
+            void TestFunc(ref int p)
+            {
+                i = 10;
+                Console.WriteLine(i);
+            }
         }
     }
 }
